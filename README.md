@@ -12,6 +12,7 @@
  Steps to Test the Application Using Swagger:
  1. As I have already implemented Swagger for testing API. After running the application, Open Swagger UI using the
  below Url.
+ http://localhost:8080/swagger-ui.html
  
  2. You can see the API endpoints which are written in the Project controller as shown below. Pass the inputs for each endpoint to hit the service. 
  
