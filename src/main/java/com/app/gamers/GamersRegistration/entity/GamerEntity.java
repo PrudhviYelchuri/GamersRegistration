@@ -25,6 +25,7 @@ public class GamerEntity {
 	private String gender;
 	private String nickname;
 	private String geography;
+	
 
 	@OneToMany(mappedBy = "gamer", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	private Set<GamesEntity> games;
